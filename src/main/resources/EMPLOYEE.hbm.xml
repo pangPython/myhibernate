@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="myhibernate.Employee" table="EMPLOYEE">
+	<id name="id" column="EMP_ID" >
+	</id>
+	<property name="date" type="timestamp" column="EVENT_DATE"/>
+	<property name="title"/>
+</class>
